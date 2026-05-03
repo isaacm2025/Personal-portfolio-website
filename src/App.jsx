@@ -217,7 +217,7 @@ function App() {
             <div className="floating-card card-seven">Git</div>
             <div className="floating-card card-eight">TypeScript</div>   
             <div className="floating-card card-eleven">HTML/CSS</div>
-            <div className="floating-card card-twelve">Phaser 3</div>
+            <div className="floating-card card-twelve">Python</div>
             
           </div>
         </div>
