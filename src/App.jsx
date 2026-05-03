@@ -410,8 +410,8 @@ function App() {
         <div className="project-grid">
           {projects.map((project) => (
             <article className="project-card" key={project.title}>
-              <div className="project-tag">{project.tag}</div>
               <h3>{project.title}</h3>
+              <div className="project-tag">{project.tag}</div>
               <p>{project.text}</p>
             <a href={project.link} target="_blank" rel="noreferrer">
               Find out more →
