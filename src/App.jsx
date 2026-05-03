@@ -460,15 +460,37 @@ function App() {
     </div>
 
     <form
-        className="contact-form"
-        onSubmit={(event) => {
-          event.preventDefault();
-          alert("Thanks for your message! Please email me directly at isaac.murong@mail.mcgill.ca for now.");
-        }}
-      >
-      <input type="text" placeholder="Your Name" />
-      <input type="email" placeholder="Your Email" />
-      <textarea placeholder="Your Message" rows="6"></textarea>
+      className="contact-form"
+      action="https://formspree.io/f/mlgzjrqv"
+      method="POST"
+    >
+      <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+      />
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+      />
+
+      <textarea
+        name="message"
+        placeholder="Your Message"
+        rows="6"
+        required
+      ></textarea>
+
+      <input
+        type="hidden"
+        name="_subject"
+        value="New message from Isaac's portfolio website"
+      />
+
       <button type="submit" className="contact-submit">
         Send Message
       </button>
