@@ -12,7 +12,7 @@ const experiences = [
   },
   
   {
-    title: "Financial Advisor Hwllo",
+    title: "Financial Advisor",
     subtitle: "The Bank of Nova Scotia (Scotiabank) | 2021-2024",
     logo: `${import.meta.env.BASE_URL}logos/scotiabank.svg`,
     text: "Worked with clients to understand financial goals, explain banking and investment products, and provide practical guidance. The role strengthened my communication, problem-solving, and analytical skills, which I now bring into software development and data analysis.",
