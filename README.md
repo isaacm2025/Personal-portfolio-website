@@ -1,16 +1,39 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, created to showcase my background, technical skills, projects, and contact information. The website is designed to give visitors a clear overview of who I am, what I am learning, and what I am building as I continue developing my skills in software engineering and web development.
 
-Currently, two official plugins are available:
+## About This Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio website serves as a central place for recruiters, collaborators, and visitors to learn more about me. It includes information about my education, technical interests, personal projects, and ways to get in touch with me.
 
-## React Compiler
+The website is built with a clean and responsive design so that it works well across desktop and mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+This project was built using the following technologies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – for building reusable UI components
+- **Vite** – for fast development and optimized production builds
+- **JavaScript** – for website logic and interactivity
+- **HTML5** – for the website structure
+- **CSS3** – for styling, layout, and responsive design
+- **GitHub Pages** – for deployment and hosting
+- **GitHub Actions** – for automated deployment workflow
+
+## Features
+
+- Responsive personal portfolio layout
+- Project showcase section
+- Contact/email feature
+- Clean and modern user interface
+- Deployed publicly with GitHub Pages
+
+## Deployment
+
+This website is deployed using **GitHub Pages**. Updates pushed to the main branch can be automatically deployed through the configured GitHub Actions workflow.
+
+## Copyright
+
+© 2026 Isaac M. All rights reserved.
+
+This project and its contents, including the design, code, text, and personal information, are the intellectual property of Isaac M. Unauthorized copying, distribution, modification, or use of this project without permission is not allowed.
